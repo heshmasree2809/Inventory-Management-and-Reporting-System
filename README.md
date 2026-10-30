@@ -1,6 +1,6 @@
-# Inventory Management and Reporting System | Infosys SpringBoard Internship Project
+# Inventory Management and Reporting System 
 
-A full-stack inventory management application built as part of the **Infosys Springboard Virtual Internship**. The backend is a Spring Boot REST API secured with JWT authentication, and the frontend is a React SPA with role-based routing, real-time low-stock alerts, and analytics dashboards.
+A full-stack Inventory Management and Reporting System designed to simplify product tracking, stock control, and inventory analysis. The backend uses a Spring Boot REST API secured with JWT authentication, while the React frontend provides role-based navigation, low-stock alerts, and analytics dashboards.
 
 ---
 
