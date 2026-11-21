@@ -13,6 +13,6 @@ target/
 
 # IDE
 .idea/
-.vscode
+.vscode/
 
 # Secrets
