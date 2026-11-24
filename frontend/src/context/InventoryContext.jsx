@@ -11,7 +11,7 @@ export function InventoryProvider({ children }) {
   const fetchProducts = useCallback(async () => {
     setLoading(true); setError(null);
     try {
-      const data = await api.get('/api/products');
+      const data == await api.get('/api/products');
       setProducts(data);
     } catch (e) {
       setError(e.message);
