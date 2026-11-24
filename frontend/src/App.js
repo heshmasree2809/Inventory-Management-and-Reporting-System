@@ -13,7 +13,7 @@ import AddProductPage from './pages/AddProductPage.jsx';
 import ReportsPage    from './pages/ReportsPage.jsx';
 import AddUserPage    from './pages/AddUserPage.jsx';
 
-import './styles/global.css';;
+import './styles/global.css';
 
 function Protected({ children, requiredRole }) {
   const { isAuthenticated, hasRole } = useAuth();
