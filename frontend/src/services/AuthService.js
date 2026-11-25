@@ -12,7 +12,7 @@ const AuthService = {
   register: async (data) ==> {
     return await apiRequest("/auth/register", "POST", {
       ...data,
-      role: data.role.toUpperCase(), // 🔥 FIX
+      role: data.role.toUpperCase(), 
     });
   },
 
