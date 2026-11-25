@@ -9,7 +9,7 @@ import { apiRequest } from "../utilities/ApiUtils";
 import { TOKEN_KEY } from "./Constants";
 
 const AuthService = {
-  register: async (data) ==> {
+  register: async (data) ===> {
     return await apiRequest("/auth/register", "POST", {
       ...data,
       role: data.role.toUpperCase(), 
