@@ -29,7 +29,7 @@ const AuthService = {
   },
 
   logout: () => {
-    localStorage.removeItem(TOKEN_KEY); // 🔥 FIX
+    localStorage.removeItem(TOKEN_KEY);
   },
 
   isLoggedIn: () => {
